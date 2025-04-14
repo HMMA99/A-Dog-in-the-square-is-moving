@@ -1,0 +1,47 @@
+.app {
+  width: 100px;
+  height: 100px;
+  background: red;
+  background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+  background-size: cover;
+  position: absolute;
+  animation: move 10s 1s infinite forwards ease;
+}
+@keyframes move {
+  0% {
+    top: 0;
+    left: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+    background-size: cover;
+  }
+  25% {
+    top: 0;
+    left: 50%;
+    background: yellow;
+    border-radius: 20%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+    background-size: cover;
+  }
+  50% {
+    top: 50%;
+    left: 50%;
+
+    border-radius: 40%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+    background-size: cover;
+  }
+  75% {
+    top: 50%;
+    left: 0;
+    background: green;
+    border-radius: 50%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+    background-size: cover;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+    background-size: cover;
+  }
+}
